@@ -1,2 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
-wp-config.php
+/wp-config.php
+.idea/inspectionProfiles/
+wp-content/plugins/unyson/tmp/
+wp-content/upgrade/
+wp-content/uploads/
