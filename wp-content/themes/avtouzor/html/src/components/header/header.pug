@@ -1,0 +1,34 @@
+mixin header()
+  +b('header').header#header
+    +e('img')(src='assets/images/smoke.png').smoke
+    +b.container
+      +b.nav-menu
+        +e('img')(src='assets/images/logo.png', width='auto', height='124').logo
+        +b('ul').menu-item
+          +b('li').item
+            +b('a')(href='#services').menu-item-a.scroll услуги
+          +b('li').item
+            +b('a')(href='#work').menu-item-a.scroll галерея
+          +b('li').item
+            +b('a')(href='#footer').menu-item-a.scroll контакты
+        +b.mail-phone
+          +b.mail
+            +b.mail-phone-image
+              +b('i').fas.fa-at
+            +e('a')(href='mailto:info@avtouzor.ru').email info@avtouzor.ru
+          +b.phone
+            +b.mail-phone-image
+              +b('i').fas.fa-phone
+            +b.phone-block
+              +e('p').nphone 8 (812) 319 36 02
+      +b.banner
+        +b.banner-text
+          +e('h2') Оклейка автомобилей
+          +e('h2') виниловой пленкой
+          +e('p') Компания "Автоузор" является одним из лидеров рынка винилового стайлинга автомобилей и рекламы на транспорте в Санкт-Петербурге.
+          +e('p') Профессиональный коллектив и собственная производственная база позволяет проводить работы «под ключ»: проект – согласование - изготовление - нанесение. Ну а если Вы не очень четко представляете себе новый внешний вид автомобиля, наш художник-дизайнер предложит Вам несколько эскизов с учетом требований и пожеланий.
+          +e('p') Закажите расчёт или консультацию по интересующему вас проекту
+          +b.header-advice
+            +b('a')(href='#modal', rel="nofollow").advice.js_modalWindow Получить консультацию
+        +b.banner-image
+          +e('img')(src='assets/images/red-dragon.png', alt='', width='820px').reg-dradon

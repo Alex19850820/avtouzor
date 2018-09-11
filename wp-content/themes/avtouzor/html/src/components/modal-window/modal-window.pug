@@ -1,0 +1,13 @@
+mixin modal-window()
+  +b.modal-window#modal
+    +b.modal-block
+      +e('h2').head Хотите получить консультацию?
+      +e('p').text Заполните поля и наш специалист свяжется с Вами
+      +b('form').modal-form
+        +e('input')(type='text', placeholder='Ваше имя', required).form-input
+        +e('input')(type='tel', placeholder='Ваше номер телефона', required).form-input.js_phone-mask
+        +e('a')(href='#thanks', rel="nofollow", onclick="$.fancybox.close();").form-btn.js_modalWindow Отправить
+  +b.modal-thanks#thanks
+    +b.modal-block
+      +e('h2').head Спасибо за заявку
+        +e('p').text Наш специалист свяжется с Вами в ближайшее время!

@@ -11,24 +11,76 @@
 
 ?>
 
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'avtouzor' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'avtouzor' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'avtouzor' ), 'avtouzor', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+<footer class="footer-section" id="footer">
+	<div class="container">
+		<div class="footer">
+			<div class="contacts">
+				<div class="flogo"><a class="flogo-src scroll" href="#header"><img class="flogo-src__flogo" src="assets/images/logo.png" width="auto" height="124" alt="" role="presentation"/></a>
+					<ul class="fmenu-item">
+						<li class="fitem"><a class="fmenu-item-a scroll" href="#services">Услуги</a>
+						</li>
+						<li class="fitem"><a class="fmenu-item-a scroll" href="#work">Галерея</a>
+						</li>
+						<li class="fitem"><a class="fmenu-item-a scroll" href="#footer">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="social">
+					<div class="fmail-fphone">
+						<div class="flocation">
+							<div class="fmail-phone-image"><i class="fas fa-map-marker-alt"></i>
+							</div>
+							<p class="flocation__location">Санкт-Петербург,  Митрофаньевское ш. 6АМ
+							</p>
+						</div>
+						<div class="fphone">
+							<div class="fmail-phone-image"><i class="fas fa-phone"></i>
+							</div>
+							<div class="phone-block">
+								<p class="phone-block__nphone">8 (812) 319 36 02
+								</p>
+							</div>
+						</div>
+						<div class="fmail">
+							<div class="fmail-phone-image"><i class="fas fa-at"></i>
+							</div><a class="fmail__email" href="mailto:info@avtouzor.ru">info@avtouzor.ru</a>
+						</div>
+					</div>
+					<div class="soc">
+						<p>Мы в соц. сетях:<a class="fab fa-vk" href="https://vk.com/avtouzor" target="_blank"></a><a class="fab fa-facebook-f" href="https://www.facebook.com/avtouzor" target="_blank"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="map">
+				<iframe class="map-block" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0ed45f9d527abf23ffef6652ed67d3b84a6a6092ec489ca93293d02a415130dd&amp;amp;source=constructor" height="300" frameborder="0" style="border:0" allowfullscreen="allowfullscreen">
+				</iframe>
+			</div>
+		</div>
+	</div><img class="footer-section__fsmoke" src="assets/images/smoke_footer.png" heith="550" alt="" role="presentation"/>
+</footer>
+<div class="modal-window" id="modal">
+	<div class="modal-block">
+		<h2 class="modal-block__head">Хотите получить консультацию?
+		</h2>
+		<p class="modal-block__text">Заполните поля и наш специалист свяжется с Вами
+		</p>
+		<form class="modal-form">
+			<input class="modal-form__form-input" type="text" name="name" placeholder="Ваше имя" required="required"/>
+			<input class="modal-form__form-input js js_phone-mask" type="tel" name="phone" placeholder="Ваше номер телефона" required="required"/>
+<!--			<a style="display: none" class="modal-form__form-btn js_modalWindow"  href="#thanks" rel="nofollow" onclick="$.fancybox.close();">Отправить</a>-->
+			<button class="modal-form__form-btn">Отправить</button>
+		</form>
+	</div>
+</div>
+<div class="modal-thanks" id="thanks">
+	<div class="modal-block">
+		<h2 class="modal-block__head">Спасибо за заявку
+			<p class="modal-block__text">Наш специалист свяжется с Вами в ближайшее время!
+			</p>
+		</h2>
+	</div>
+</div>
 
 <?php wp_footer(); ?>
 

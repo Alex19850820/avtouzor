@@ -120,17 +120,71 @@ add_action( 'widgets_init', 'avtouzor_widgets_init' );
  * Enqueue scripts and styles.
  */
 function avtouzor_scripts() {
-	wp_enqueue_style( 'avtouzor-style', get_stylesheet_uri() );
+	
+	/*
+   * Подключаем стили:
+   * Аргументы:
+   * 1) название стиля (может быть любым)
+   * 2) путь к файлу
+   */
+	// для локальных стилей
+	wp_enqueue_style( 'avtouzor-fontawesome', 'https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ');
+	wp_enqueue_style( 'avtouzor-jq-style', get_template_directory_uri() . '/assets/css/jquery.fancybox.css' );
+	wp_enqueue_style( 'avtouzor-styles', get_template_directory_uri() . '/assets/css/style.css' );
+	
+//	wp_enqueue_style( 'avtouzor-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'avtouzor-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+//	wp_enqueue_script( 'avtouzor-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'avtouzor-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+//	wp_enqueue_script( 'avtouzor-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
+//	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+//		wp_enqueue_script( 'comment-reply' );
+//	}
+	// для внешних стилей
+	//wp_enqueue_style( 'artcraft-style', 'http://domain.com/style.css' );
+	/*
+	 * Подключаем скрипты:
+	 * Аргументы:
+	 * 1) название скрипта (может быть любым)
+	 * 2) путь к файлу
+	 * 3) после каких скриптов подгружать (лучше указать пустой массив
+	 * 4) версия (оставляем пустые кавычки)
+	 * 5) подключение в футере (true = да, false = нет)
+	 */
+	wp_enqueue_script( 'avtouzor-js-jq', get_template_directory_uri() . '/assets/js/jquery-3.2.1.min.js', [], '', true );
+	wp_enqueue_script( 'avtouzor-js-input_mask', get_template_directory_uri() . '/assets/js/jquery.inputmask.bundle.js', [], '', true );
+	wp_enqueue_script( 'avtouzor-js-phone', get_template_directory_uri() . '/assets/js/phone.js', [], '', true );
+	wp_enqueue_script( 'avtouzor-js-phone_ru', get_template_directory_uri() . '/assets/js/phone-ru.js', [], '', true );
+	wp_enqueue_script( 'avtouzor-jq-fancybox', get_template_directory_uri() . '/assets/js/jquery.fancybox.js', [], '', true );
+	wp_enqueue_script( 'avtouzor-js_script', get_template_directory_uri() . '/assets/js/script.js', [], '', true );
+	wp_enqueue_script( 'avtouzor-js_script_form', get_template_directory_uri() . '/js/script_form.js', [], '', true );
+	
+	/*
+    * Добавляем возможность отправлять AJAX-запросы к скриптам
+    * Аргументы:
+    * 1) название скрипта, в котором будем писать ajax
+    * 2) название объекта, к которому будем обращаться в файле скрипта
+    * 3) элементы объекта, которые нам нужны (путь к обработчику аякса, путь к папке темы)
+    */
+	wp_localize_script( 'avtouzor-js_script_form', 'myajax',
+		[
+			'url' => admin_url( 'admin-ajax.php' ),
+			'template' => get_template_directory_uri()
+		]
+	);
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	
 }
 add_action( 'wp_enqueue_scripts', 'avtouzor_scripts' );
+
+/**
+ * Load custom functions
+ */
+require get_template_directory() . '/includes/custom-functions.php';
 
 /**
  * Implement the Custom Header feature.

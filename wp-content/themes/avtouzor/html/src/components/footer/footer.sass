@@ -1,0 +1,149 @@
+.footer-section
+  padding-bottom: 70px
+  position: relative
+
+.footer
+  display: flex
+  align-items: center
+
+.flogo-src
+  cursor: pointer
+  text-decoration: none
+
+.contacts
+  display: flex
+
+.flogo
+  margin-right: 80px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.fmenu-item
+  padding: 0
+  margin-top: 30px
+
+.fitem
+  list-style: none
+  margin: 10px 0
+
+.fmenu-item-a
+  color: #000000
+  text-decoration: none
+
+.fmenu-item-a:hover
+  color: #000000
+  text-decoration: none
+
+.fmail-fphone
+  width: 250px
+  display: flex
+  flex-direction: column
+
+.flocation, .fphone, .fmail
+  margin: 10px 0
+  display: flex
+  align-items: center
+
+  & a
+    color: #000000
+    text-decoration: none
+
+  & a:hover
+    color: #000000
+    text-decoration: none
+
+.fphone .phone-block
+
+  &__nphone
+    color: #000000
+    text-decoration: none
+    font-family: MullerExtraBold, sans-serif
+    font-size: 17px
+    & a
+      color: #000000
+      text-decoration: none
+
+.fmail-phone-image
+  margin-right: 10px
+  width: 35px
+  height: 35px
+  display: flex
+  align-items: center
+  justify-content: center
+  color: #ffffff
+  background-color: #ca2b38
+  border-radius: 50%
+  box-shadow: -5px 5px 35px -4px rgba(202, 43, 56, .7)
+
+.fphone .fas
+  transform: rotate(90deg)
+
+.flocation
+
+  & p
+    width: 200px
+    margin: 0
+    font-family: MullerRegular, sans-serif
+    font-size: 15px
+
+.fphone
+
+  & a
+    font-family: MullerExtraBold, sans-serif
+    font-size: 17px
+
+.fmail
+
+  & a
+    font-family: MullerExtraBold, sans-serif
+    font-size: 15px
+
+.soc
+  margin-top: 20px
+
+  & p
+    font-family: MullerExtraBold, sans-serif
+    font-size: 14px
+
+.fab.fa-vk, .fab.fa-facebook-f
+  margin: 0 15px
+  font-weight: 900
+  color: #000000
+  text-decoration: none
+  cursor: pointer
+
+.fab.fa-vk:hover, .fab.fa-facebook-f:hover
+  color: #000000
+  text-decoration: none
+
+.map
+  display: flex
+
+.footer-section__fsmoke
+  position: absolute
+  bottom: 0
+  right: 0
+  width: auto
+  height: 550px
+  z-index: -5
+
+@media (max-width: 768px)
+  .footer
+    flex-direction: column
+  .map
+    width: 100%
+  .map iframe
+    width: 100%
+
+@media (max-width: 600px)
+  .flogo
+    margin-right: 40px
+
+@media (max-width: 376px)
+  .contacts
+    flex-direction: column
+  .flogo
+    margin-right: 0
+    justify-content: space-between
+    flex-direction: row

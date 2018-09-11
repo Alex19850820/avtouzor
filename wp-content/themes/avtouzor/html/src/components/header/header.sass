@@ -1,0 +1,355 @@
+@import url("../fonts/fonts.css")
+
+.row
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  margin-right: -15px
+  margin-left: -15px
+
+
+.container
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+
+@media (min-width: 576px)
+  .container
+    max-width: 540px
+
+
+
+@media (min-width: 768px)
+  .container
+    max-width: 720px
+
+
+
+@media (min-width: 992px)
+  .container
+    max-width: 960px
+
+
+
+@media (min-width: 1200px)
+  .container
+    max-width: 1140px
+
+
+.container-fluid
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+
+
+h1, h2, h3, h4, h5, h6
+  margin-top: 0
+  margin-bottom: .5rem
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+  margin-bottom: .5rem
+  font-family: inherit
+  font-weight: 500
+  line-height: 1.2
+  color: inherit
+
+
+.h1, h1
+  font-size: 2.5rem
+
+
+.h2, h2
+  font-size: 2rem
+
+
+.h3, h3
+  font-size: 1.75rem
+
+
+.h4, h4
+  font-size: 1.5rem
+
+
+.h5, h5
+  font-size: 1.25rem
+
+
+.h6, h6
+  font-size: 1rem
+
+
+*, ::after, ::before
+  box-sizing: border-box
+
+
+p
+  margin-top: 0
+  margin-bottom: 1rem
+
+
+dl, ol, ul
+  margin-top: 0
+  margin-bottom: 1rem
+
+
+ol ol, ol ul, ul ol, ul ul
+  margin-bottom: 0
+
+
+a
+  color: #007bff
+  text-decoration: none
+  background-color: transparent
+  -webkit-text-decoration-skip: objects
+
+
+a:link
+  text-decoration: none /* Убирает подчеркивание для ссылок */
+
+a:visited
+  text-decoration: none
+a:active
+  text-decoration: none
+a:hover
+  text-decoration: underline /* Делает ссылку подчеркнутой при наведении на нее курсора */
+
+
+a:hover
+  color: #0056b3
+  text-decoration: underline
+
+
+button
+  border-radius: 0
+
+
+button, input, optgroup, select, textarea
+  margin: 0
+  font-family: inherit
+  font-size: inherit
+  line-height: inherit
+
+
+button, input
+  overflow: visible
+
+
+button, select
+  text-transform: none
+
+body
+  margin: 0
+  font-family: MullerRegular, sans-serif
+  background-color: #ebebeb
+
+.header
+  padding-bottom: 125px
+  position: relative
+  background-color: #d72e3c
+
+  &__smoke
+    position: absolute
+    z-index: 1
+    left: -200px
+
+.nav-menu
+  padding-top: 10px
+  position: relative
+  display: flex
+  justify-content: flex-start
+  z-index: 9
+
+  &__logo
+    z-index: 10
+
+.menu-item
+  height: max-content
+  display: flex
+  list-style: none
+
+.item
+  margin: 10px 50px
+  height: max-content
+
+.menu-item-a
+  font-size: 16px
+  text-transform: uppercase
+  color: #ffffff
+  text-decoration: none
+  cursor: pointer
+
+.menu-item-a:hover
+  color: #ffffff
+  text-decoration: none
+
+.mail-phone
+  margin-left: auto
+  height: max-content
+  display: flex
+
+.mail, .phone
+  display: flex
+  align-items: center
+
+.mail
+  margin-right: 30px
+
+  &__email
+    color: #ffffff
+    text-decoration: none
+
+  &__email:hover
+    color: #ffffff
+    text-decoration: none
+
+.phone-block
+
+  &__nphone
+    margin: 4px 0
+    color: #ffffff
+    text-decoration: none
+    & a
+      color: #ffffff
+      text-decoration: none
+
+.mail-phone-image
+  margin-right: 10px
+  width: 35px
+  height: 35px
+  display: flex
+  align-items: center
+  justify-content: center
+  color: #ffffff
+  background-color: #000000
+  border-radius: 50%
+  box-shadow: -5px 5px 35px -4px rgba(0, 0, 0, .7)
+
+.phone .fas
+  transform: rotate(90deg)
+
+.banner
+  display: flex
+
+.banner-text
+  margin-top: 30px
+  width: 445px
+  color: #ffffff
+  z-index: 3
+
+  & h2
+    font-size: 33px
+    font-family: MullerRegular, sans-serif
+    text-transform: uppercase
+
+  & h2:first-child
+    margin-bottom: -5px
+    font-family: MullerBold, sans-serif
+
+  & p
+    font-size: 14px
+    word-spacing: 4px
+    text-align: justify
+
+  & p:nth-child(5)
+    margin-left: 100px
+    margin-bottom: 25px
+    width: 340px
+    font-family: MullerExtraBold, sans-serif
+    font-size: 15px
+    text-align: right
+    text-transform: uppercase
+
+.header-advice
+  margin-top: 10px
+  margin-left: 200px
+
+.advice
+  padding: 14px 24px 13px
+  border-radius: 25px
+  color: #ffffff
+  background-color: #282828
+  font-family: MullerExtraBold, sans-serif
+  font-size: 13px
+  text-decoration: none
+  text-transform: uppercase
+  cursor: pointer
+  outline: none
+  box-shadow: -10px 10px 50px -1px rgba(0, 0, 0, .4)
+
+.advice:hover
+  color: #ffffff
+  text-decoration: none
+
+.banner-image
+  position: absolute
+  top: 40px
+  right: 30px
+
+//@media (max-width: 1400px) and (min-width: 1200px)
+  //.banner-text p
+  //  margin-right: 150px
+  //.banner-text p:nth-child(5)
+  //  margin-left: 10px
+  //.header-advice
+  //  margin-left: 110px
+
+@media (max-width: 1200px)
+  .banner-image
+    display: none
+  .banner
+    justify-content: center
+  .mail-phone
+    flex-direction: column
+  .mail
+    margin-bottom: 15px
+
+@media (max-width: 992px)
+  .nav-menu
+    flex-wrap: wrap
+    justify-content: space-between
+  .menu-item
+    flex-direction: column
+  .mail-phone
+    margin-left: 0
+
+@media (max-width: 768px)
+  .mail-phone
+    margin-left: auto
+    flex-direction: row
+  .mail
+    margin-bottom: 0
+
+
+@media (max-width: 600px)
+  .banner-text p:nth-child(5)
+    width: auto
+    margin-left: 0
+  .header-advice
+    margin-left: 0
+    display: flex
+    justify-content: center
+  .banner-text
+    text-align: center
+
+@media (max-width: 376px)
+  .menu-item
+    padding: 0
+  .mail-phone
+    flex-direction: column
+  .mail
+    margin-bottom: 15px
+
+@media (max-width: 340px)
+  .nav-menu
+    justify-content: center
+  .mail-phone
+    margin-left: 0
+  .menu-item
+    text-align: center
+

@@ -2,7 +2,255 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452c03ac-571d-4946-88c0-18b6bb01e7d4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/css/jquery.fancybox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerBlack.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerBlackItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerExtraBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerExtraBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerHairline.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerHairlineItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerHeavy.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerHeavyItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerMedium.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerMediumItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerRegular.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerRegularItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerThin.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerThinItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerUltraLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/MullerUltraLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/fonts/fonts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/action.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/dark_diamond.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/delo_vkusa_dukato.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/gorodgeroev_epika.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/mekhanika.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/prizrachny_gonschik.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/red-dragon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/renault_duster_kapot.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/reviews_image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/service_item_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/service_item_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/service_item_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/service_item_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/service_item_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/service_item_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/smoke.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/smoke_footer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/sto_stolov.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/teplolyux_gazel.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/tranzit.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/trust_item_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/works_photo_9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/images/wv_tiguan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/jquery.fancybox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/jquery.inputmask.bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/phone-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/phone.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/js/script.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/css/jquery.fancybox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerBlack.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerBlackItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerExtraBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerExtraBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerHairline.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerHairlineItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerHeavy.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerHeavyItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerMedium.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerMediumItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerRegular.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerRegularItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerThin.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerThinItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerUltraLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/MullerUltraLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/fonts/fonts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/action.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/dark_diamond.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/delo_vkusa_dukato.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/gorodgeroev_epika.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/mekhanika.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/prizrachny_gonschik.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/red-dragon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/renault_duster_kapot.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/reviews_image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/service_item_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/service_item_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/service_item_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/service_item_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/service_item_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/service_item_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/smoke.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/smoke_footer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/sto_stolov.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/teplolyux_gazel.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/tranzit.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/trust_item_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/works_photo_9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/images/wv_tiguan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/jquery.fancybox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/jquery.inputmask.bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/phone-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/phone.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/assets/js/script.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/gulpfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/make-block.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/action/action.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/action/action.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/action/action.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/footer/footer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/footer/footer.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/footer/footer.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/header/header.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/header/header.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/header/header.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/layout-default/layout-default.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/modal-window/modal-window.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/modal-window/modal-window.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/modal-window/modal-window.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/offers/offers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/offers/offers.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/offers/offers.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/reviews/reviews.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/reviews/reviews.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/reviews/reviews.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/services/services.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/services/services.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/services/services.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/work/work.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/work/work.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/components/work/work.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerBlack.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerBlackItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerExtraBold.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerExtraBoldItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerHairline.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerHairlineItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerHeavy.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerHeavyItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerMedium.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerMediumItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerRegular.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerRegularItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerThin.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerThinItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerUltraLight.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/MullerUltraLightItalic.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/fonts/fonts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/action.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/dark_diamond.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/delo_vkusa_dukato.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/gorodgeroev_epika.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/mekhanika.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/prizrachny_gonschik.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/red-dragon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/renault_duster_kapot.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/reviews_image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/service_item_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/service_item_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/service_item_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/service_item_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/service_item_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/service_item_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/smoke.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/smoke_footer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/sto_stolov.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/teplolyux_gazel.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/tranzit.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/trust_item_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/works_photo_9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/images/wv_tiguan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/libs/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/pages/index.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/shared/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/shared/sass/_fonts.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/html/src/shared/sass/style.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/includes/custom-functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/js/script_form.js" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/admin-ajax.php" afterPath="$PROJECT_DIR$/wp-admin/admin-ajax.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/avtouzor/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/footer.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/views/view.php" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/views/view.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/avtouzor/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/avtouzor/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/avtouzor/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +261,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="444" selection-end-column="14" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/views/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4208">
+              <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="70" column="144" lean-forward="false" selection-start-line="70" selection-start-column="125" selection-end-line="70" selection-end-column="144" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script_form.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/js/script_form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="60" column="91" lean-forward="false" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="169" column="48" lean-forward="false" selection-start-line="169" selection-start-column="48" selection-end-line="169" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/includes/custom-functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -25,14 +352,34 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>meta</find>
+      <find>assets</find>
+      <find>modal</find>
+      <find>viewport</find>
+      <find>id=&quot;modal</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;?php bloginfo('template_url')?&gt;/assets</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/views/view.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/assets/includes/custom-functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/includes/custom-functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/avtouzor/js/script_form.js" />
       </list>
     </option>
   </component>
@@ -72,6 +419,29 @@
               <item name="avtouzor.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="avtouzor.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="avtouzor.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="avtouzor.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="avtouzor.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="avtouzor.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="avtouzor.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="avtouzor.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="avtouzor.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="avtouzor.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="avtouzor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,8 +457,15 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/wp-config.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\avtouzor.loc\wp-content\themes\avtouzor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\avtouzor.loc" />
+      <recent name="D:\OpenServer\domains\avtouzor.loc\wp-admin" />
+      <recent name="D:\OpenServer\domains\avtouzor.loc\wp-content\themes\avtouzor\assets\includes" />
+      <recent name="D:\OpenServer\domains\avtouzor.loc\wp-content\themes\avtouzor\js" />
+      <recent name="D:\OpenServer\domains\avtouzor.loc\wp-content\themes\avtouzor" />
+      <recent name="D:\OpenServer\domains\avtouzor.loc\wp-content\themes\avtouzor\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,15 +493,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536670544653</updated>
-      <workItem from="1536670548475" duration="946000" />
+      <workItem from="1536670548475" duration="8802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="946000" />
+    <option name="totallyTimeSpent" value="8802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -135,7 +513,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05982906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -168,8 +546,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-586">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#431#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/html/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="444" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/config.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="60" column="91" lean-forward="false" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="169" column="48" lean-forward="false" selection-start-line="169" selection-start-column="48" selection-end-line="169" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/includes/custom-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/framework-customizations/extensions/shortcodes/shortcodes/main-content/views/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4208">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="70" column="144" lean-forward="false" selection-start-line="70" selection-start-column="125" selection-end-line="70" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/avtouzor/js/script_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>

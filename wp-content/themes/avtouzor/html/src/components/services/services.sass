@@ -1,0 +1,166 @@
+.service-head
+  position: relative
+  margin-top: -50px
+  padding: 40px 25px 40px 0
+  width: 385px
+  display: flex
+  align-items: flex-end
+  flex-direction: column
+  text-align: right
+  background-color: #ffffff
+  box-shadow: 19px 0 50px -8px rgba(0, 0, 0, .2)
+
+  & h3
+    text-transform: uppercase
+    font-size: 25px
+    margin: 0
+
+  &__head
+    font-family: MullerExtraBold, sans-serif
+
+  &__head:after
+    content: ''
+    position: absolute
+    left: 30px
+    top: 40px
+    height: 25px
+    border: 2px solid #000000
+
+  &__text
+    margin-top: 17px
+    margin-bottom: 0
+    width: 335px
+    font-family: MullerRegular, sans-serif
+    font-size: 14px
+    word-spacing: 1px
+    text-align: justify
+
+.service-items
+  position: relative
+  margin-top: 30px
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+.service-item
+  margin: 20px 0
+  position: relative
+  width: 320px
+  height: max-content
+  display: flex
+
+  &__car-man
+    position: relative
+    top: -33px
+    right: 13px
+
+.item-image
+  width: 80px
+
+.item-text
+  width: 250px
+  height: 222px
+  position: relative
+
+  &__head
+    font-family: MullerExtraBold, sans-serif
+    font-size: 14px
+    font-weight: bold
+    text-transform: uppercase
+
+  &__text
+    font-size: 14px
+    word-spacing: 3px
+
+  &__btn
+    position: absolute
+    bottom: 0
+    right: 0
+    padding: 11px 25px
+    background-color: #d52e3c
+    color: #ffffff
+    border-radius: 25px
+    text-decoration: none
+    cursor: pointer
+    box-shadow: -3px 4px 19px -3px rgba(0, 0, 0, .9)
+
+  &__btn:hover
+    color: #ffffff
+    text-decoration: none
+
+.more-info
+  display: none
+  padding: 20px
+  position: absolute
+  bottom: 40px
+  max-width: 400px
+  background-color: #ffffff
+  border: 4px solid #bd2733
+  z-index: 9
+
+  &__head
+    font-family: MullerExtraBold, sans-serif
+    font-size: 19px
+    text-align: center
+    color: #960813
+
+  &__text
+    font-family: MullerMedium, sans-serif
+    font-size: 13px
+    line-height: 1.5
+
+.more-info-active
+  display: block
+
+.close-more
+  position: absolute
+  right: 10px
+  top: 10px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 20px
+  height: 20px
+  cursor: pointer
+  & span
+    width: 15px
+    height: 2px
+    background-color: #000000
+  & span:first-child
+    transform: rotate(45deg)
+  & span:last-child
+    position: relative
+    top: -2px
+    transform: rotate(-45deg)
+
+@media (max-width: 1200px)
+  .service-items
+    justify-content: space-around
+
+@media (max-width: 768px)
+  .service-items
+    justify-content: center
+  .item-text
+    width: 75%
+    height: auto
+  .item-text__btn
+    position: relative
+  .service-item__car-man
+    top: -5px
+
+
+@media (max-width: 376px)
+  .service-head
+    width: auto
+  .service-head__head:after
+    left: 10px
+  .service-head__text
+    margin-left: 20px
+    width: auto
+  .service-item__car-man
+    position: relative
+    top: 0
+    right: 0
+    width: 300px
+    height: 245px

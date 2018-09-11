@@ -1,0 +1,93 @@
+mixin reviews()
+  +b('section').reviews-section
+    +b.container
+      +b.trust-reviews
+        +b.trust
+          +b.trust-head
+            +e('h3').head Мы заслужили
+            +e('h3').head2 Доверие клиентов:
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_1.png', alt='', width='35px', height='35x')
+            +e('p').text Работаем на рынке с 2000 года
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_2.png', alt='', width='35px', height='35x')
+            +e('p').text Материалы от “Эконом” до “Премиум”
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_3.png', alt='', width='35px', height='35x')
+            +e('p').text Высокое качество работ и материалов
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_4.png', alt='', width='35px', height='35x')
+            +e('p').text Четкое соблюдение сроков
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_5.png', alt='', width='35px', height='35x')
+            +e('p').text Контроль всех этапов производства
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_6.png', alt='', width='35px', height='35x')
+            +e('p').text Квалифицированный персонал
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_7.png', alt='', width='35px', height='35x')
+            +e('p').text Индивидуальный подход к клиентам
+          +b.trust-item
+            +e('img')(src='assets/images/trust_item_8.png', alt='', width='35px', height='35x')
+            +e('p').text Возможность выезда бригады по адресу
+        +b.reviews
+          +b.reviews-head
+            +b('button').list-reviews.js_listTwo Другие отзывы
+            +e('h3').head Отзывы о нашей работе
+          +b.reviews-list-first.reviews-list-active
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/sto_stolov.jpg', alt='', width='135px', height='135px')
+              +e('h5') Сто Столов,
+                +e('span')  Микроавтобус
+              +e('p') Оклейка микроавтобуса который доставляет мебель клиентам. Макет разработан с учетом наших требований, фирменных цветов и размеров транспортного средства.
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/prizrachny_gonschik.jpg', alt='', width='135px', height='135px')
+              +e('h5') Петр,
+                +e('span')  Форд Фокус_Призрачный Гонщик
+              +e('p') Хотел оклеить весь кузов, но бюджет для такой задачи был не велик. Предложили комбинированную аппликацию – затяжка капота + аппликация пленкой. Подготовили проект и реализовали. Получилось очень удачно! И рисунок оригинальный, и площадь оклейки большая и бюджет гуманный!
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/wv_tiguan.jpg', alt='', width='135px', height='135px')
+              +e('h5') Александр,
+                +e('span')  VW Tiguan
+              +e('p') Давно думал как сделать так что-бы борта моего автомобиля украшал хищник и что-бы бюджет был для меня доступным. Аэрография отпала сразу - очень дорого, а вот оклейка пленкой с полноцветным изображением оказалась вполне доступна. Сразу понял что потяну, согласовали материалы, картинку, ударили по рукам и быстро все сделали.
+          +b.reviews-list-two
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/delo_vkusa_dukato.jpg', alt='', width='135px', height='135px')
+              +e('h5') Дело вкуса
+                +e('span')
+              +e('p') Оклейка парка автомобилей по доставке продуктов проводились в компании "Автоузор", нареканий нет - замеры, адаптация макета к кузову, подготовка и оклейка. Всё четко. Спасибо!
+            +b.reviews-item
+                +b.reviews-item-image
+                  +e('img')(src='assets/images/tranzit.jpg', alt='', width='135px', height='135px')
+                +e('h5') Николай,
+                  +e('span')  Транзит
+                +e('p') Решил затянуть капот своего Транзита, что-бы рисунок был и защита дополнительная от мелких камней и пескоструя. В разговоре с дизайнером определилась тематика - компьютерные шутеры. Вариант нашелся быстро, оклеили за день. По моей просьбе использовалась специализированная серия пленок, хотелось что-бы рисунок жил долго!
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/teplolyux_gazel.jpg', alt='', width='135px', height='135px')
+              +e('h5') Теплолюкс ,
+                +e('span') ГАЗель
+              +e('p') Оклейка ГАЗели работа не хитрая, но нужно было быстро и в срок, нам было важно меньше дней терять на простое машины. "Автоузор" сделал все как надо.
+          +b.reviews-list-three
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/mekhanika.jpg', alt='', width='135px', height='135px')
+              +e('h5') Механика
+                +e('span')
+              +e('p') Мастераская на колесах нуждалась в фирменной оклейке. Коллеги из "Автоузора" выполнили работ "под ключ" - от макета до оклейки.
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/renault_duster_kapot.jpg', alt='', width='135px', height='135px')
+              +e('h5') Дмитрий,
+                +e('span')  Рено Дастер_капот
+              +e('p') Давно хотел не только защитить капот, но и сделать изображение что-бы вуделить свой автомобиль, ведь Дастеров бегает много. Перебрав несколько вариантов (спасибо дизайнеру) нашли оптимальную картинку и реализовали задуманное. Макетирование, согласование, изготовление, оклейка - на все ушло 4 дня. Очень доволен!
+            +b.reviews-item
+              +b.reviews-item-image
+                +e('img')(src='assets/images/gorodgeroev_epika.jpg', alt='', width='135px', height='135px')
+              +e('h5') Екатерина,
+                +e('span')  Город Героев_Эпика
+              +e('p') Решили оклеить свой Chevrolet в стиле главных героев любимого мультфильма. Подобрали интересный кадр, согласовали макет... и вуаля! На радость мне и моим детям автомобиль стал еще более любимым!

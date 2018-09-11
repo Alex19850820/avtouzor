@@ -1,0 +1,157 @@
+.work-section
+  margin-bottom: 50px
+  padding-top: 20px
+
+.work
+	display: flex
+
+.work-two
+  display: none
+  margin-top: 5px
+
+.show-block
+  display: flex
+
+.work-two .five-two
+  margin-right: 10px
+
+.work-left
+  margin-right: 10px
+  display: flex
+  flex-direction: column
+
+  &__first
+    margin-bottom: 10px
+    object-fit: cover
+
+  &__two
+    object-fit: cover
+
+.work-center-text
+  margin-right: 15px
+  padding: 0 10px
+  //width: 350px
+  position: relative
+
+  &__head
+    padding-left: 15px
+    margin: 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    text-transform: uppercase
+    font-size: 20px
+    font-family: MullerExtraBold, sans-serif
+
+    & span
+      font-family: MullerBold, sans-serif
+      font-size: 12px
+      color: #000000
+      text-decoration: underline
+      text-transform: none
+      cursor: pointer
+
+    & a:hover
+      color: #000000
+
+  &__head:after
+    content: ''
+    position: absolute
+    left: 11px
+    top: 0
+    height: 20px
+    border: 2px solid #000000
+
+  & p
+    margin: 0
+    word-spacing: 2px
+    text-align: justify
+    line-height: 19px
+
+.work-center-up
+  margin-bottom: 10px
+  display: flex
+
+  &__five
+    object-fit: cover
+
+.work-center-down
+  display: flex
+
+.work-center-down-left
+  margin-right: 10px
+  display: flex
+  flex-direction: column
+
+  &__three
+    margin-bottom: 10px
+    object-fit: cover
+
+.work-center-down-right
+
+  &__six
+    object-fit: cover
+
+.work-right
+  margin-left: 10px
+  display: flex
+  flex-direction: column
+
+  &__seven
+    margin-bottom: 10px
+
+  &__eight
+    margin-bottom: 10px
+
+@media (max-width: 1200px)
+  .work-right
+    display: none
+
+@media (max-width: 992px)
+  .work, .work-two
+    justify-content: center
+  .work-left
+    display: none
+
+@media (max-width: 600px)
+  .work-center-up__five
+    display: none
+  .work-center-down
+    flex-direction: column
+  .work-center-down-left
+    flex-direction: row
+  .work-center-down-left__three
+    margin-right: 10px
+  .work-center-down-right__six
+    width: 370px
+  .work, .work-two
+    align-items: center
+    flex-direction: column-reverse
+  .work-left
+    display: flex
+    margin-top: 5px
+  .work-left__first, .work-left__two
+    width: 370px
+
+@media (max-width: 376px)
+  .work-center-text
+    width: auto
+    margin: 0px 8px
+  .work-center-down-left__three, .work-center-down-left__four
+    margin-bottom: 10px
+    width: 150px
+    height: auto
+  .work-center-down-right__six, .work-left__first, .work-left__two
+    width: 310px
+    height: auto
+  .work-center-down-left
+    margin-right: 0
+    justify-content: center
+  .work-center-down-right
+    display: flex
+    justify-content: center
+  .item-text
+    width: 200px
+  .work-left
+    margin-top: 10px
+    margin-right: 0
