@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="footer">
 			<div class="contacts">
-				<div class="flogo"><a class="flogo-src scroll" href="#header"><img class="flogo-src__flogo" src="assets/images/logo.png" width="auto" height="124" alt="" role="presentation"/></a>
+				<div class="flogo"><a class="flogo-src scroll" href="#header"><img class="flogo-src__flogo" src="<?php bloginfo('template_url')?>/assets/images/logo.png" width="auto" height="124" alt="" role="presentation"/></a>
 					<ul class="fmenu-item">
 						<li class="fitem"><a class="fmenu-item-a scroll" href="#services">Услуги</a>
 						</li>
@@ -57,7 +57,7 @@
 				</iframe>
 			</div>
 		</div>
-	</div><img class="footer-section__fsmoke" src="assets/images/smoke_footer.png" heith="550" alt="" role="presentation"/>
+	</div><img class="footer-section__fsmoke" src="<?php bloginfo('template_url')?>/assets/images/smoke_footer.png" heith="550" alt="" role="presentation"/>
 </footer>
 <div class="modal-window" id="modal">
 	<div class="modal-block">

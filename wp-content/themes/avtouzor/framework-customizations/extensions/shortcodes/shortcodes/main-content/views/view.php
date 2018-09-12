@@ -228,7 +228,7 @@
 						</p>
 					</div>
 					<div class="reviews-item">
-						<div class="reviews-item-image"><img src="assets/images/teplolyux_gazel.jpg" alt="" width="135px" height="135px" role="presentation"/>
+						<div class="reviews-item-image"><img src="<?php bloginfo('template_url')?>/assets/images/teplolyux_gazel.jpg" alt="" width="135px" height="135px" role="presentation"/>
 						</div>
 						<h5>Теплолюкс ,<span>ГАЗель</span>
 						</h5>
@@ -238,7 +238,7 @@
 				</div>
 				<div class="reviews-list-three">
 					<div class="reviews-item">
-						<div class="reviews-item-image"><img src="assets/images/mekhanika.jpg" alt="" width="135px" height="135px" role="presentation"/>
+						<div class="reviews-item-image"><img src="<?php bloginfo('template_url')?>/assets/images/mekhanika.jpg" alt="" width="135px" height="135px" role="presentation"/>
 						</div>
 						<h5>Механика<span></span>
 						</h5>
@@ -246,7 +246,7 @@
 						</p>
 					</div>
 					<div class="reviews-item">
-						<div class="reviews-item-image"><img src="assets/images/renault_duster_kapot.jpg" alt="" width="135px" height="135px" role="presentation"/>
+						<div class="reviews-item-image"><img src="<?php bloginfo('template_url')?>/assets/images/renault_duster_kapot.jpg" alt="" width="135px" height="135px" role="presentation"/>
 						</div>
 						<h5>Дмитрий,<span> Рено Дастер_капот</span>
 						</h5>
@@ -254,7 +254,7 @@
 						</p>
 					</div>
 					<div class="reviews-item">
-						<div class="reviews-item-image"><img src="assets/images/gorodgeroev_epika.jpg" alt="" width="135px" height="135px" role="presentation"/>
+						<div class="reviews-item-image"><img src="<?php bloginfo('template_url')?>/assets/images/gorodgeroev_epika.jpg" alt="" width="135px" height="135px" role="presentation"/>
 						</div>
 						<h5>Екатерина,<span> Город Героев_Эпика</span>
 						</h5>
