@@ -128,8 +128,8 @@ function avtouzor_scripts() {
    * 2) путь к файлу
    */
 	// для локальных стилей
-	wp_enqueue_style( 'avtouzor-fontawesome', 'https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ');
 	wp_enqueue_style( 'avtouzor-jq-style', get_template_directory_uri() . '/assets/css/jquery.fancybox.css' );
+	
 	wp_enqueue_style( 'avtouzor-styles', get_template_directory_uri() . '/assets/css/style.css' );
 	
 //	wp_enqueue_style( 'avtouzor-style', get_stylesheet_uri() );
