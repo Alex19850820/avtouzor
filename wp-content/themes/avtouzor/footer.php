@@ -66,19 +66,19 @@
 		<p class="modal-block__text">Заполните поля и наш специалист свяжется с Вами
 		</p>
 		<form class="modal-form">
-			<input class="modal-form__form-input" type="text" name="name" placeholder="Ваше имя" required="required"/>
-			<input class="modal-form__form-input js js_phone-mask" type="tel" name="phone" placeholder="Ваше номер телефона" required="required"/>
-<!--			<a style="display: none" class="modal-form__form-btn js_modalWindow"  href="#thanks" rel="nofollow" onclick="$.fancybox.close();">Отправить</a>-->
-			<button class="modal-form__form-btn">Отправить</button>
+			<input class="modal-form__form-input" name="name" type="text" placeholder="Ваше имя" required="required"/>
+			<input class="modal-form__form-input js js_phone-mask" name="phone" type="tel" placeholder="Ваше номер телефона" required="required"/>
+			<button class="modal-form__form-btn js js_modalThanks" type="submit">Отправить
+			</button>
 		</form>
 	</div>
-</div>
-<div class="modal-thanks" id="thanks">
-	<div class="modal-block">
-		<h2 class="modal-block__head">Спасибо за заявку
-			<p class="modal-block__text">Наш специалист свяжется с Вами в ближайшее время!
-			</p>
-		</h2>
+	<div class="modal-thanks" id="thanks">
+		<div class="modal-block-thanks">
+			<h2 class="modal-block-thanks__head">Спасибо за заявку
+				<p class="modal-block-thanks__text">Наш специалист свяжется с Вами в ближайшее время!
+				</p>
+			</h2>
+		</div>
 	</div>
 </div>
 

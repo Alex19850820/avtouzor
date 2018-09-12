@@ -1,10 +1,18 @@
-'use strict';
+"use strict";
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Shared = function Shared() {
   _classCallCheck(this, Shared);
 };
+
+$(".scroll").on("click", function (e) {
+  var anchor = $(this);
+  $('html, body').stop().animate({
+    scrollTop: $(anchor.attr('href')).offset().top
+  }, 777);
+  e.preventDefault();
+});
 
 if (window.innerWidth > 769) {
   var reSize = function reSize($target) {
@@ -23,13 +31,22 @@ if (window.innerWidth > 769) {
   });
 }
 
-$(".scroll").on("click", function (e) {
-  var anchor = $(this);
-  $('html, body').stop().animate({
-    scrollTop: $(anchor.attr('href')).offset().top
-  }, 777);
-  e.preventDefault();
+if ($('.js_phone-mask').length > 0) {
+  $('.js_phone-mask').inputmask({ alias: "phoneru" });
+}
+
+$('.js_modalWindow').fancybox({
+  // Options will go here
+  afterClose: function afterClose() {
+    $('.modal-block').removeClass('modal-noactive');
+    $('.modal-thanks').removeClass('modal-active');
+  }
 });
+
+// $(document).on('click', '.js_modalThanks', function () {
+//   $('.modal-block').addClass('modal-noactive');
+//   $('.modal-thanks').addClass('modal-active');
+// });
 
 $(document).on('click', '.js_listTwo', function () {
   $('.list-reviews').removeClass('js_listTwo');
@@ -52,21 +69,8 @@ $(document).on('click', '.js_listFirst', function () {
   $('.reviews-list-first').fadeIn();
 });
 
-if ($('.js_phone-mask').length > 0) {
-  $('.js_phone-mask').inputmask({ alias: "phoneru" });
-}
-
-// $(document).on('click', '.js_modalWindow', function () {
-//   $('body').css({'overflow': 'hidden'});
-//   $('.modal-window').addClass('modal-window-active');
-// });
-// $(document).on('click', '.overlay', function () {
-//   $('body').css({'overflow': 'visible'});
-//   $('.modal-window').removeClass('modal-window-active');
-// });
-
-$('.js_modalWindow').fancybox({
-  // Options will go here
+$(document).on('click', '.js_showImg', function () {
+  $('.work-two').addClass('show-block');
 });
 
 // $(document).on('click', '.js_moreActive', function () {
@@ -111,9 +115,5 @@ $(document).click(function (event) {
   $('.more-info').removeClass('more-info-active');
   $('.service-item').removeClass('js_activeItem');
   event.stopPropagation();
-});
-
-$(document).on('click', '.js_showImg', function () {
-  $('.work-two').addClass('show-block');
 });
 //# sourceMappingURL=script.js.map

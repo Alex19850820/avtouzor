@@ -1,10 +1,28 @@
+$(document).ready(function(){
+	// if($('.js_phone-mask').length > 0) {
+	// 	$('.js_phone-mask').inputmask({alias: 'phoneru'});
+	// }
+	$('.js_modalWindow').fancybox({
+		afterClose : function () {
+			$('.modal-block').removeClass('modal-noactive');
+			$('.modal-thanks').removeClass('modal-active');
+		}
+	});
+	// $(document).on('click', '.js_modalThanks', function () {
+	// 	$('.modal-block').addClass('modal-noactive');
+	// 	$('.modal-thanks').addClass('modal-active');
+	// });// уже добавлял тоже самое - смотри
+});
+
+
+
 $(document).on('click', '.modal-form__form-btn', function (e) {
 	e.preventDefault();
 	var data = $('.modal-form').serialize();
 	var name = $("input[name='name']").val();
 	var phone = $("input[name='phone']").val();
+
 	var form_data = new FormData();
-	$('.js_modalWindow').click();
 	// var guest = $(this).attr('data-guest');
 	// if(guest) {
 	// 	name = guest;
@@ -33,9 +51,11 @@ $(document).on('click', '.modal-form__form-btn', function (e) {
 			success: function (response) {
 				if (response.result === 'success') {
 					/*form.reset();*/
+					console.log(123); // покажи где подключаются скрипты
 					$('.modal-form').trigger('reset');
-					$.fancybox.close();
-					alert(response.message);
+					$('.modal-block').addClass('modal-noactive');
+					$('.modal-thanks').addClass('modal-active');
+					// alert(response.message);
 				} else {
 					alert(response.message);
 				}

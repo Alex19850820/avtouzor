@@ -268,7 +268,7 @@
 </section>
 <section class="action-section">
 	<div class="container">
-		<div class="action"><img src="assets/images/action.png" alt="" width="1075" height="560" role="presentation"/>
+		<div class="action"><img src="<?php bloginfo('template_url')?>/assets/images/action.png" alt="" width="1075" height="560" role="presentation"/>
 			<div class="auction-text">
 				<h2>Рекламно-произодственная
 				</h2>
