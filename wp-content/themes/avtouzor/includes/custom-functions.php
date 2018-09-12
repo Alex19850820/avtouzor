@@ -7,7 +7,6 @@ function sendForm() {
 	if (isset($_POST )) {
 		// обрабатываем запрос
 		$adminEmail = get_option('admin_email');
-		var_dump($adminEmail);die();
 //		$adminEmail = '89261231522@mail.ru,
 //globus_estate@mail.ru';
 		$name = $_POST['name'];
