@@ -17,17 +17,17 @@ $options = [
 			'email' => [
 				'type'  => 'text',
 				'label' => __( 'E-mail', '{domain}' ),
-				'value' => 'info@globusestate.ru',
+				'value' => '',
 			],
 			'time' => [
 				'type'  => 'text',
 				'label' => __( 'Время работы', '{domain}' ),
-				'value' => 'Пн-пт: с 8:00 до 22:00',
+				'value' => '',
 			],
 			'address' => [
 				'type'  => 'text',
 				'label' => __( 'Адрес', '{domain}' ),
-				'value' => '141407, г. Москва, <br>ул. Кронштадский бул.,  д.6, корп. 5',
+				'value' => '',
 			],
 			'address_map' => [
 				'type' => 'addable-popup',
@@ -138,7 +138,7 @@ $options = [
 			'phone' => [
 				'type'  => 'text',
 				'label' => __( 'Телефон', '{domain}' ),
-				'value' => '+7(499)390-55-71',
+				'value' => '',
 			],
 			'discount' => [
 				'type'  => 'text',
@@ -163,7 +163,7 @@ $options = [
 			'mortgage' => [
 				'type'  => 'text',
 				'label' => __( 'Текст', '{domain}' ),
-				'value' => 'Ипотека',
+				'value' => '',
 			],
 			'href_mortgage' => [
 				'type'  => 'text',
@@ -173,7 +173,7 @@ $options = [
 			'about' => [
 				'type'  => 'text',
 				'label' => __( 'Текст', '{domain}' ),
-				'value' => 'О компании',
+				'value' => '',
 			],
 			'href_about' => [
 				'type'  => 'text',
@@ -183,7 +183,7 @@ $options = [
 			'build' => [
 				'type'  => 'text',
 				'label' => __( 'Текст', '{domain}' ),
-				'value' => 'Застройщикам',
+				'value' => '',
 			],
 			'href_build' => [
 				'type'  => 'text',
@@ -193,7 +193,7 @@ $options = [
 			'contacts' => [
 				'type'  => 'text',
 				'label' => __( 'Текст', '{domain}' ),
-				'value' => 'Контакты',
+				'value' => '',
 			],
 			'href_contacts' => [
 				'type'  => 'text',
@@ -208,12 +208,12 @@ $options = [
 			'more' => [
 				'type'  => 'text',
 				'label' => __( 'Текст', '{domain}' ),
-				'value' => 'Узнать больше по телефону:',
+				'value' => '',
 			],
 			'order' => [
 				'type'  => 'text',
 				'label' => __( 'Текст', '{domain}' ),
-				'value' => 'Заказать обратный звонок',
+				'value' => '',
 			],
 			'horder' => [
 				'type'  => 'text',
@@ -256,77 +256,6 @@ $options = [
 						],
 					],
 				],
-			],
-		],
-	],
-	'landing' => [
-		'title'   => __( 'Лендинг', '{domain}' ),
-		'options' => [
-			'landing_img' => [
-				'type'  => 'upload',
-				'value' => '',
-				'label' => __('Вернхняя картинка', '{domain}'),
-				'images_only' => true,
-			],
-			'landing_h1' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Заголовок', '{domain}'),
-			],
-			'landing_city' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Город', '{domain}'),
-			],
-			'landing_address' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Адрес', '{domain}'),
-			],
-			'landing_desc' => [
-				'type'  => 'textarea',
-				'value' => '',
-				'label' => __('Описание', '{domain}'),
-			],
-			'landing_phone' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Телефон', '{domain}'),
-			],
-			'landing_time' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Срок сдачи', '{domain}'),
-			],
-			'landing_desc2' => [
-				'type'  => 'textarea',
-				'value' => '',
-				'label' => __('Условия', '{domain}'),
-			],
-		],
-	],
-	'landing_footer' => [
-		'title'   => __( 'Лендинг футер', '{domain}' ),
-		'options' => [
-			'landing_footer_title' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Заголовок', '{domain}'),
-			],
-			'landing_footer_phone' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Телефон', '{domain}'),
-			],
-			'landing_footer_address' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Адресс', '{domain}'),
-			],
-			'landing_footer_time' => [
-				'type'  => 'text',
-				'value' => '',
-				'label' => __('Время работы', '{domain}'),
 			],
 		],
 	],
