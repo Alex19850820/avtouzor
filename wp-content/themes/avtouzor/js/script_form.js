@@ -12,6 +12,7 @@ $(document).ready(function(){
 	// 	$('.modal-block').addClass('modal-noactive');
 	// 	$('.modal-thanks').addClass('modal-active');
 	// });// уже добавлял тоже самое - смотри
+	$('#fw-ext-builder-frontend-grid-css').remove();
 });
 
 
